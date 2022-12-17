@@ -1,0 +1,32 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+::selection{
+    background-color: #E50914;
+    color: white;
+}
+*{
+    background-color: #252525;
+    color: #E50914;
+}
+.user-container{
+    font-family: helvetica;
+    font-size: 20px;
+}
+.name{
+    margin: 10px 10px 20px 10px;
+    padding: 5px;
+    border: 1px solid #E50914;
+    border-radius: 4px;
+    transition: all 0.50 ease;
+    cursor: pointer;
+}
+.name:hover{
+    padding: 15px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+}
+.name:active{
+    cursor: progress;
+}

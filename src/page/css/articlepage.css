@@ -1,0 +1,40 @@
+.article-container{
+    margin: 100px auto auto auto;
+    width: 800px;
+    border: 1px solid #E50914;
+    border-radius: 10px;
+}
+.article-ttl{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E50914;
+}
+.article-body{
+    margin: auto 15px;
+}
+.content-ttl{
+    margin-bottom: 0;
+}
+.content-txt{
+    text-align: justify;
+    font-size: 16px;
+}
+.button-art{
+    margin: 25px auto 25px 15px;
+    padding: 5px 10px;
+    border: 1px solid #E50914;
+    border-radius: 20px;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+.button-art:hover{
+    padding: 5px 20px;
+    border-start-end-radius: 0px;
+    border-end-end-radius: 0px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+}
+.button-art:active{
+    cursor: progress;
+}
